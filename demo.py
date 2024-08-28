@@ -4,7 +4,7 @@ import pytesseract
 import pyzbar.pyzbar as pyzbar
 
 # Load the image
-image = cv2.imread('/home/jakapong/example_code/test3.jpg')
+image = cv2.imread('path/your/images')
 
 # Check if the image was loaded successfully
 if image is None:
